@@ -7,3 +7,11 @@ html p,
 body p {
   background: red;
 }
+html p:nth-of-type(even),
+body p:nth-of-type(even) {
+  background: skyblue;
+}
+html p:nth-of-type(odd),
+body p:nth-of-type(odd) {
+  background: purple;
+}
